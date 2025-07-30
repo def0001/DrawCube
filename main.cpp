@@ -28,9 +28,3 @@ class Cube {
       }
     }
 };
-
-int main() {
-  Cube cube;
-  cube.DrawCube(10);
-  return 0;
-}
