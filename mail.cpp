@@ -5,16 +5,16 @@ class Cube {
     void DrawCube(int size) {
       std::cout << "\n";
       if (size < 2) {
-        DrawVerticalLine(1);
+        DrawHorizontalLine(1);
         return;
       }
-      DrawVerticalLine(size);
+      DrawHorizontalLine(size);
       DrawWalls(size);
-      DrawVerticalLine(size);
+      DrawHorizontalLine(size);
 
     }
-
-    void DrawVerticalLine(int size) {
+  private:
+    void DrawHorizontalLine(int size) {
       std::cout << "[";
       for (int i = 0; i < size; i++) {
         std::cout << "-";
