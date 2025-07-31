@@ -7,7 +7,7 @@ A small script that can draw a cube in console.
 ### **Usage**:
 ```cpp
 Cube c;
-c.DrawCube(2); // [size of cube], [style] <- (optional, default: 1)
+c.DrawCube(2); // [size of cube], [style] <- (optional, default: 0)
 ```
 
 ### **Styles**:
